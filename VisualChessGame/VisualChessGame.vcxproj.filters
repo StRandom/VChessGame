@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{67143c13-5ccc-41b1-a14d-ab200b7bb0ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{6f16ecb0-0643-422a-99e8-56abb6bc389f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{c6da04c3-44dc-4e26-8923-01c1e0c13f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\ChessPiece">
+      <UniqueIdentifier>{134ad0cb-5246-43da-ac83-0a96a93c1799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\ChessBoard">
+      <UniqueIdentifier>{6cff5b8d-cc15-4256-b276-0f0359bb1339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Patterns">
+      <UniqueIdentifier>{72a070b8-9d15-4cfc-a6cd-b0d4a1b71cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\ChessBoard\ChessBoardViews">
+      <UniqueIdentifier>{ffca48a9-59c1-41f9-9633-2a0c97498bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\ChessPiece\ChessPieceView">
+      <UniqueIdentifier>{b0354f00-70d9-4f72-9b29-f95ea4298740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{81ec758d-5463-4bf9-af10-b41efe8d23ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\ChessBoard">
+      <UniqueIdentifier>{de7034fb-9180-4b57-9f46-ae76b01080cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\ChessBoard\ChessBoardViews">
+      <UniqueIdentifier>{9dbf6b63-6681-4479-94b7-5dec3b81c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\ChessPiece">
+      <UniqueIdentifier>{8fb9c062-d1af-4d52-b621-037af722624f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\ChessPiece\ChessPieceView">
+      <UniqueIdentifier>{c160311a-432c-4798-9304-c71acc0847c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Registry">
+      <UniqueIdentifier>{00bebf91-d99d-4301-9ad9-b78119c9780f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Registry">
+      <UniqueIdentifier>{53dc99c7-67fc-46dc-a462-cc1a0a60eaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Help">
+      <UniqueIdentifier>{1fd446d6-2971-4ffc-8cdf-68d5c8f13912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Help">
+      <UniqueIdentifier>{d69b8eeb-635c-43a4-8ff1-40fd1cd2291c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CDlgAbout.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgListOfMoves.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlgOptions.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainWnd.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CVisualChessGame.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ChessBoard.cpp">
+      <Filter>Source Files\Engine\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MoveRecorder.cpp">
+      <Filter>Source Files\Engine\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ChessBoardView.cpp">
+      <Filter>Source Files\Engine\ChessBoard\ChessBoardViews</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ChessHistoryView.cpp">
+      <Filter>Source Files\Engine\ChessBoard\ChessBoardViews</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ChessPieceView.cpp">
+      <Filter>Source Files\Engine\ChessPiece\ChessPieceView</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\King.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ChessPiece.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Knight.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Pawn.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Queen.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Rook.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Bishop.cpp">
+      <Filter>Source Files\Engine\ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualChessBoard.cpp">
+      <Filter>Source Files\Engine\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualMoveRecorder.cpp">
+      <Filter>Source Files\Engine\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Help.cpp">
+      <Filter>Source Files\Help</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgAbout.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgListOfMoves.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlgOptions.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainWnd.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CVisualChessGame.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Bishop.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ChessBoard.h">
+      <Filter>Header Files\Engine\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ChessPiece.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\King.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Knight.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MoveRecorder.h">
+      <Filter>Header Files\Engine\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Pawn.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Player.h">
+      <Filter>Header Files\Engine\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Queen.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rook.h">
+      <Filter>Header Files\Engine\ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Observer.h">
+      <Filter>Header Files\Engine\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Subject.h">
+      <Filter>Header Files\Engine\Patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ChessBoardView.h">
+      <Filter>Header Files\Engine\ChessBoard\ChessBoardViews</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ChessHistoryView.h">
+      <Filter>Header Files\Engine\ChessBoard\ChessBoardViews</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ChessPieceView.h">
+      <Filter>Header Files\Engine\ChessPiece\ChessPieceView</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualChessBoard.h">
+      <Filter>Header Files\Engine\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualMoveRecorder.h">
+      <Filter>Header Files\Engine\ChessBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Help.h">
+      <Filter>Header Files\Help</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pieces.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TechnicalTask.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

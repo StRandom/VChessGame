@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F59FFF6D-4419-4AF5-BE10-B7E8A0E1BBD5}</ProjectGuid>
+    <RootNamespace>VisualChessGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CDlgAbout.cpp" />
+    <ClCompile Include="CDlgListOfMoves.cpp" />
+    <ClCompile Include="CDlgOptions.cpp" />
+    <ClCompile Include="CMainWnd.cpp" />
+    <ClCompile Include="CVisualChessGame.cpp" />
+    <ClCompile Include="Engine\Bishop.cpp" />
+    <ClCompile Include="Engine\ChessBoard.cpp" />
+    <ClCompile Include="Engine\ChessBoardView.cpp" />
+    <ClCompile Include="Engine\ChessHistoryView.cpp" />
+    <ClCompile Include="Engine\ChessPiece.cpp" />
+    <ClCompile Include="Engine\ChessPieceView.cpp" />
+    <ClCompile Include="Engine\King.cpp" />
+    <ClCompile Include="Engine\Knight.cpp" />
+    <ClCompile Include="Engine\MoveRecorder.cpp" />
+    <ClCompile Include="Engine\Pawn.cpp" />
+    <ClCompile Include="Engine\Queen.cpp" />
+    <ClCompile Include="Engine\Rook.cpp" />
+    <ClCompile Include="Help.cpp" />
+    <ClCompile Include="Registry.cpp" />
+    <ClCompile Include="VisualChessBoard.cpp" />
+    <ClCompile Include="VisualMoveRecorder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDlgAbout.h" />
+    <ClInclude Include="CDlgListOfMoves.h" />
+    <ClInclude Include="CDlgOptions.h" />
+    <ClInclude Include="CMainWnd.h" />
+    <ClInclude Include="CVisualChessGame.h" />
+    <ClInclude Include="Engine\Bishop.h" />
+    <ClInclude Include="Engine\ChessBoard.h" />
+    <ClInclude Include="Engine\ChessBoardView.h" />
+    <ClInclude Include="Engine\ChessHistoryView.h" />
+    <ClInclude Include="Engine\ChessPiece.h" />
+    <ClInclude Include="Engine\ChessPieceView.h" />
+    <ClInclude Include="Engine\King.h" />
+    <ClInclude Include="Engine\Knight.h" />
+    <ClInclude Include="Engine\MoveRecorder.h" />
+    <ClInclude Include="Engine\Observer.h" />
+    <ClInclude Include="Engine\Pawn.h" />
+    <ClInclude Include="Engine\Player.h" />
+    <ClInclude Include="Engine\Queen.h" />
+    <ClInclude Include="Engine\Rook.h" />
+    <ClInclude Include="Engine\Subject.h" />
+    <ClInclude Include="Help.h" />
+    <ClInclude Include="Registry.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="VisualChessBoard.h" />
+    <ClInclude Include="VisualMoveRecorder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.bmp" />
+    <Image Include="icon1.ico" />
+    <Image Include="pieces.bmp" />
+    <Image Include="toolbar1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TechnicalTask.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

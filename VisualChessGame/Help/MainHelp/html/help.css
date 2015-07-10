@@ -1,0 +1,67 @@
+BODY {
+	margin: 15px 10px 5px 10px;
+	background: #FFF8E8;
+	font-family: Verdana, Arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+TABLE.Head {
+	width: 100%;
+	background: #FF9900;
+}
+
+TD {
+	text-align: justify;
+	font-family: Verdana, Arial;
+	font-size: 10pt;
+	color: #000000;
+}
+
+TD.Head {
+	background: #FF9900;
+	font-size: 13pt;
+	font-weight: bold;
+	color: #FFF8E8;
+}
+
+TD.Bottom {
+	font-size: 10px;
+	text-align: right;
+}
+
+HR {
+	color: #FF9900;
+}
+
+MENU {
+	margin-top: 10px;
+}
+
+H3 {
+	font-size: 13pt;
+	margin-bottom: 10px;
+}
+
+P {
+	margin: 10px 0px 15px 0px;
+}
+
+LI {
+	margin: 5px 0px 3px 0px;
+}
+
+A:Link {
+	color: #2848D8;
+	text-decoration: underline;
+}
+
+A:Visited {
+	color: #2848D8;
+	text-decoration: underline;
+}
+
+A:Hover	{
+	color: #FF9000;
+	text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+; VisualChessGame Help
+; Copyright (C) 2014-2014 StRandomCorp
+
+[OPTIONS]
+Compatibility=1.0
+Compiled file=Help.chm
+Contents file=Help.hhc
+Default Window=Main
+Default topic=html\intro.htm
+Display compile progress=Yes
+Language=0x409 Английский (США)
+Title=VisualChessGame Help
+
+[WINDOWS]
+Main=,"Help.hhc",,"html\mainwnd.htm",,,,,,0x42120,,0x300e,[152,114,872,654],,,,,,,0
+
+
+[FILES]
+html\mainwnd.htm
+html\rules.htm
+html\settings.htm
+html\support.htm
+html\sysreq.htm
+
+[INFOTYPES]
+

@@ -1,0 +1,4 @@
+Pe2-e4 Pe7-e5
+Qd1-h5 Nb8-a6
+Bf1-c4 Ng8-f6
+Qh5xf7# 1-0
